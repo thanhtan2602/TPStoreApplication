@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPStore.Web", "TPStore.Web\TPStore.Web.csproj", "{587978B5-FBB9-458A-BC91-209D4CFD22DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPStore.Web", "TPStore.Web\TPStore.Web.csproj", "{587978B5-FBB9-458A-BC91-209D4CFD22DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPStore.Api", "..\TPStore.Api\TPStore.Api.csproj", "{F33E87AC-DBAF-43F6-B8FE-98ADEF9ADCBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{587978B5-FBB9-458A-BC91-209D4CFD22DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587978B5-FBB9-458A-BC91-209D4CFD22DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587978B5-FBB9-458A-BC91-209D4CFD22DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33E87AC-DBAF-43F6-B8FE-98ADEF9ADCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33E87AC-DBAF-43F6-B8FE-98ADEF9ADCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33E87AC-DBAF-43F6-B8FE-98ADEF9ADCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33E87AC-DBAF-43F6-B8FE-98ADEF9ADCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
